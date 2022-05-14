@@ -59,6 +59,6 @@ Product {
 
     Export {
         Depends { name: "stm32" }
-        stm32.libraryPaths: product.stm32.libraryPaths
+        stm32.libraryPaths: exportingProduct.stm32.libraryPaths
     }
 }
